@@ -1,13 +1,31 @@
 <template lang="html">
-  <div>
-    <sui-button social="facebook" content="Facebook" icon="facebook" />
-    <sui-button social="twitter" content="Twitter" icon="twitter" />
-    <sui-button social="google" content="Google" icon="google" />
-    <sui-button social="vk" content="VK" icon="vk" />
-    <sui-button social="linkedin" content="LinkedIn" icon="linkedin" />
-    <sui-button social="instagram" content="Instagram" icon="instagram" />
-    <sui-button social="youtube" content="Youtube" icon="youtube" />
-  </div>
+   <div class="flex-center">
+     <br>
+      <h3 is="sui-header" text-align="left" attached="top">
+      Get In Touch With Me!
+      </h3>
+     <br>
+     <br>
+    <a href="https://www.facebook.com/anelesokwane" target="_blank">
+      <sui-button social="facebook" content="Facebook" icon="facebook" />
+    </a>
+    <br>
+    <a href="https://twitter.com/anelesokwane19" target="_blank">
+      <sui-button social="twitter" content="Twitter" icon="twitter" />
+    </a>
+    <br>
+    <a href="https://www.linkedin.com/in/anele-sokwane-49baa919a/" target="_blank">
+      <sui-button social="linkedin" content="LinkedIn" icon="linkedin" />
+    </a>
+    <br>
+    <a href="https://www.instagram.com/anele_sokwane/" target="_blank">
+      <sui-button social="instagram" content="Instagram" icon="instagram" />
+    </a>
+    <br>
+    <a href="https://www.youtube.com/channel/UC1Wr5ovgllU0JZXdx8YXhiQ" target="_blank">
+      <sui-button social="youtube" content="Youtube" icon="youtube" />
+    </a>
+  </div> 
 </template>
 <script>
 export default {
@@ -16,5 +34,9 @@ export default {
 </script>
 
 <style>
-
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
 </style>
