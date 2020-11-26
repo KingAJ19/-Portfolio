@@ -13,6 +13,7 @@
     "@fortawesome/vue-fontawesome": "^2.0.0",
     "core-js": "^3.6.5",
     "particles.vue": "^2.1.11",
+    "semantic-ui-css": "^2.4.1",
     "semantic-ui-vue": "^0.11.0",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
