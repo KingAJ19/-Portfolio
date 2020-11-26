@@ -11,7 +11,6 @@
           thumb-label="always"
         ></v-slider>
       </v-flex>
-
       <v-flex xs12>
         <v-subheader class="pl-0">VueJS</v-subheader>
         <v-slider
@@ -81,12 +80,12 @@ export default {
   data () {
       return {
         slider: 81,
-        slider2: 71,
-        slider3: 89,
-        slider4: 88,
+        slider2: 74,
+        slider3: 93,
+        slider4: 89,
         slider5: 76,
         slider6: 69,
-        slider7: 42
+        slider7: 47
       }
     },
 }
