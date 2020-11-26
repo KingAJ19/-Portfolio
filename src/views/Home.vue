@@ -3,14 +3,13 @@
        <div
       class="container col-lg-8 col-md-12 col-sm-8 col-xs-9 "
       style="text-align:center">
-      <br>
       <v-flex class="mt-2">
       <v-avatar size="220">
       <img src="/Anele.jpg" alt="Anele">
       </v-avatar>
       </v-flex>
       <br>
-    <h2>My name is  <h2 class='pop-outin'>Anele Sokwane</h2> I am a Junior Web Developer and a <span class="txt"></span></h2>
+    <h2>My name is  <h2 class='underline'>Anele Sokwane</h2> I am a Junior Web Developer and a <span class="txt"></span></h2>
     <br>
     <br>
     <div class='line'>
@@ -70,48 +69,9 @@ h2 .txt::before{
   75% { content: 'Drawer'}
   100% { content: 'Basketball Player'}
 }
-.pop-outin {
-  animation: 2s anim-popoutin ease infinite;
+.underline{
+  text-decoration: underline;
+  color: #FF0000;
 }
-
-@keyframes anim-popoutin {
-  0% {
-    color: black;
-    transform: scale(0);
-    opacity: 0;
-    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
-  }
-  25% {
-    color: red;
-    transform: scale(2);
-    opacity: 1;
-    text-shadow: 3px 10px 5px rgba(0, 0, 0, 0.5);
-  }
-  50% {
-    color: black;
-    transform: scale(1);
-    opacity: 1;
-    text-shadow: 1px 0 0 rgba(0, 0, 0, 0);
-  }
-  100% {
-    /* animate nothing to add pause at the end of animation */
-    transform: scale(1);
-    opacity: 1;
-    text-shadow: 1px 0 0 rgba(0, 0, 0, 0);
-  }
-}
-
-.fromtop {
-  animation: 2s anim-fromtop linear infinite;
-}
-@keyframes anim-fromtop {
-  0% { opacity: 0; transform: translateY(-100%);}
-  25% { opacity: 1; transform: translateY(0%);}
-  50% {
-  }
-  100% {
-  }
-}
-
 
 </style>

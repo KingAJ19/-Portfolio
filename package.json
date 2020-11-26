@@ -12,6 +12,7 @@
     "particles.vue": "^2.1.11",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
+    "vue-simple-progress": "^1.1.1",
     "vuetify": "^2.2.11"
   },
   "devDependencies": {

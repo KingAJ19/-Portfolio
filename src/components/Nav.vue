@@ -13,7 +13,7 @@
          <v-navigation-drawer v-model="drawer" app class="black">
            <v-layout column align-center>
              <v-flex class="mt-5">
-               <v-avatar size="120">
+               <v-avatar size="150">
                  <img src="/Sokwane.png" alt="Anele">
                </v-avatar>
                <p class="white--text font-weight-bold subheading mt-1">
@@ -45,7 +45,8 @@ export default {
                 { text: 'Contact', icon: 'mdi-account-box', route: '/contact' },
                 { text: 'Skills', icon: 'mdi-web', route: '/skills' },
                 { text: 'Projects', icon: 'mdi-folder', route: '/projects' },
-                { text: 'Languages', icon: 'mdi-devices', route: '/languages'}
+                { text: 'Languages', icon: 'mdi-devices', route: '/languages'},
+                { text: 'Testimonials', icon: 'mdi-chat', route: '/testimonials'}
         ],
             }
         }
