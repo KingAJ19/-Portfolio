@@ -25,6 +25,18 @@
     <a href="https://www.youtube.com/channel/UC1Wr5ovgllU0JZXdx8YXhiQ" target="_blank">
       <sui-button social="youtube" content="Youtube" icon="youtube" />
     </a>
+    <br>
+    <sui-button icon> Email:
+      <a href="mailto:aneleuchiha000@gmail.com? subject=subject text" target="_blank">
+      <sui-icon name="mail" />
+      aneleuchiha000@gmail.com
+      </a>
+    </sui-button>
+     <br>
+    <sui-button icon> 
+      <sui-icon name="phone" />
+      Phone: 081 553 9120
+    </sui-button>
   </div> 
 </template>
 <script>
