@@ -5,7 +5,7 @@
         <v-flex xs12 sm6 md4 lg3 v-for="project in projects" :key="project.name" link :to="project.link">
           <v-card text class="text-center ma-3">
             <v-responsive class="pt-4">
-              <v-avatar size="220"> 
+              <v-avatar size="170"> 
                 <img :src="project.avatar">
               </v-avatar>
             </v-responsive>
@@ -16,7 +16,7 @@
             <v-card-actions>
                <v-btn text color="blue">
                 <v-icon small left>mdi-folder</v-icon>
-                <span>See More</span>
+                <a :href="project.link" target="_blank">Live Demo</a>
               </v-btn>
             </v-card-actions>
           </v-card>
@@ -27,15 +27,17 @@
 </template>
 
 <script>
+
     export default {
         name: "Projects",
         data(){
     return{
       projects: [
-        { name: 'Calculator', description: 'A calculator using HTML & CSS', avatar: './calculator.png', link: 'https://github.com/KingAJ19/Calculator' },
-        { name: '3D Soccer Player Slides', description: 'A slideshow of my favorite soccer players using JS, HTML & CSS', avatar: '/slides.png', link: '' },
-        { name: 'Javascript Todo List', description: 'A simple todo list using JavaScript', avatar: '/todo.png', link: '' },
-        { name: 'Asaph Franks', description: 'Anele is one word..."Driven". If he really wants to do something he will push himself to do it. He is also a super fun person to be around.', avatar: './Asaph.jpg', link: '' }
+        { name: 'Calculator', description: 'A simple, fully functional calculator using HTML & CSS', avatar: './calculator.png', link: 'https://calculator-app-12.herokuapp.com' },
+        { name: '3D Soccer Player Slides', description: 'A slideshow of my favorite soccer players using JS, HTML & CSS', avatar: '/slides.png', link: 'https://soccer-player-slide.herokuapp.com' },
+        { name: 'Javascript Todo List', description: 'A simple todo list using JavaScript', avatar: '/todo.png', link: 'https://javascript-todo-list-11.herokuapp.com' },
+        { name: 'Nike Product Card', description: 'A simple Nike AirMax product card using HTML & CSS', avatar: './shoes.jpg', link: 'https://nike-product-card.herokuapp.com' },
+        { name: 'Pokemon Api', description: 'Getting Pokemon data from the PokeAPI using JS, HTML & CSS', avatar: './pikachu.png', link: 'https://pokemon-api-app1.herokuapp.com' }
         
       ]
     }
