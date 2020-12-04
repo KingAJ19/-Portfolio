@@ -5,7 +5,7 @@
         <v-flex xs12 sm6 md4 lg3 v-for="project in projects" :key="project.name" link :to="project.link">
           <v-card text class="text-center ma-3">
             <v-responsive class="pt-4">
-              <v-avatar size="170"> 
+              <v-avatar size="130"> 
                 <img :src="project.avatar">
               </v-avatar>
             </v-responsive>
@@ -27,7 +27,6 @@
 </template>
 
 <script>
-
     export default {
         name: "Projects",
         data(){
@@ -37,7 +36,8 @@
         { name: '3D Soccer Player Slides', description: 'A slideshow of my favorite soccer players using JS, HTML & CSS', avatar: '/slides.png', link: 'https://soccer-player-slide.herokuapp.com' },
         { name: 'Javascript Todo List', description: 'A simple todo list using JavaScript', avatar: '/todo.png', link: 'https://javascript-todo-list-11.herokuapp.com' },
         { name: 'Nike Product Card', description: 'A simple Nike AirMax product card using HTML & CSS', avatar: './shoes.jpg', link: 'https://nike-product-card.herokuapp.com' },
-        { name: 'Pokemon Api', description: 'Getting Pokemon data from the PokeAPI using JS, HTML & CSS', avatar: './pikachu.png', link: 'https://pokemon-api-app1.herokuapp.com' }
+        { name: 'Pokemon Api', description: 'Getting Pokemon data from the PokeAPI using JS, HTML & CSS', avatar: './pikachu.png', link: 'https://pokemon-api-app1.herokuapp.com' },
+        { name: 'Punching Bag', description: 'A simple punch bag game using VueJS', avatar: './bag.png', link: 'https://punching-bag-game.herokuapp.com'}
         
       ]
     }
