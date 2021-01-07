@@ -32,7 +32,7 @@
         data(){
     return{
       projects: [
-        { name: 'Calculator', description: 'A simple, fully functional calculator using HTML & CSS', avatar: './calculator.png', link: 'https://calculator-app-12.herokuapp.com' },
+        { name: 'Calculator', description: 'A simple, fully functional calculator using HTML & CSS', avatar: './calculator.png', link: 'https://aneles-calculator.herokuapp.com' },
         { name: '3D Soccer Player Slides', description: 'A slideshow of my favorite soccer players using JS, HTML & CSS', avatar: '/slides.png', link: 'https://soccer-player-slide.herokuapp.com' },
         { name: 'Javascript Todo List', description: 'A simple todo list using JavaScript', avatar: '/todo.png', link: 'https://javascript-todo-list-11.herokuapp.com' },
         { name: 'Nike Product Card', description: 'A simple Nike AirMax product card using HTML & CSS', avatar: './shoes.jpg', link: 'https://nike-product-card.herokuapp.com' },
