@@ -38,7 +38,7 @@
         { name: 'My Anime Site', description: 'A website with my anime lists and rankings', avatar: '/anime.jpg', link: 'https://aneles-anime-webpage.herokuapp.com' },
         { name: 'Nike Product Card', description: 'A simple Nike AirMax product card using HTML & CSS', avatar: './shoes.jpg', link: 'https://nike-product-card.herokuapp.com' },
         { name: 'Pokemon Api', description: 'Getting Pokemon data from the PokeAPI using JS, HTML & CSS', avatar: './pikachu.png', link: 'https://pokemon-api-app-1.herokuapp.com' },
-        { name: 'Lineage Media', description: 'A website for Lineage Media made with Bootstrap, HTML & CSS', avatar: './lineage.png', link: 'https://lineage-media.herokuapp.com' },
+        { name: 'Lineage Media', description: 'A website for Lineage Media made with Bootstrap, HTML & CSS', avatar: './lineage.jpg', link: 'https://lineage-media.herokuapp.com' },
         { name: 'Punching Bag', description: 'A simple punch bag game using VueJS', avatar: './bag.png', link: 'https://punching-bag-game.herokuapp.com'}
         
       ]
