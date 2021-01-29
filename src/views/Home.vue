@@ -65,8 +65,8 @@ h2 .txt::before{
 @keyframes profile {
   0% { content: 'Content Creator'}
   25% { content: 'Anime Fan'}
-  50% { content: 'Lyricist'}
-  75% { content: 'Drawer'}
+  50% { content: 'Rapper'}
+  75% { content: 'Creator'}
   100% { content: 'Basketball Player'}
 }
 .underline{
