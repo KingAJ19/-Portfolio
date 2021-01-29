@@ -36,6 +36,7 @@
         { name: '3D Soccer Player Slides', description: 'A slideshow of my favorite soccer players using JS, HTML & CSS', avatar: '/slides.png', link: 'https://soccer-player-slide.herokuapp.com' },
         { name: 'Javascript Todo List', description: 'A simple todo list using JavaScript', avatar: '/todo.png', link: 'https://javascript-todo-list-11.herokuapp.com' },
         { name: 'My Anime Site', description: 'A website with my anime lists and rankings', avatar: '/anime.jpg', link: 'https://aneles-anime-webpage.herokuapp.com' },
+        { name: 'Anime Typing Game', description: 'A charcater typing game made with Bootstrap and JS', avatar: './typing.jpg', link: 'https://anime-typing-game.herokuapp.com' },
         { name: 'Nike Product Card', description: 'A simple Nike AirMax product card using HTML & CSS', avatar: './shoes.jpg', link: 'https://nike-product-card.herokuapp.com' },
         { name: 'Pokemon Api', description: 'Getting Pokemon data from the PokeAPI using JS, HTML & CSS', avatar: './pikachu.png', link: 'https://pokemon-api-app-1.herokuapp.com' },
         { name: 'Lineage Media', description: 'A website for Lineage Media made with Bootstrap, HTML & CSS', avatar: './lineage.jpg', link: 'https://lineage-media.herokuapp.com' },
