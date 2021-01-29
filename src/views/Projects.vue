@@ -37,7 +37,7 @@
         { name: 'Javascript Todo List', description: 'A simple todo list using JavaScript', avatar: '/todo.png', link: 'https://javascript-todo-list-11.herokuapp.com' },
         { name: 'My Anime Site', description: 'A website with my anime lists and rankings', avatar: '/anime.jpg', link: 'https://aneles-anime-webpage.herokuapp.com' },
         { name: 'Nike Product Card', description: 'A simple Nike AirMax product card using HTML & CSS', avatar: './shoes.jpg', link: 'https://nike-product-card.herokuapp.com' },
-        { name: 'Pokemon Api', description: 'Getting Pokemon data from the PokeAPI using JS, HTML & CSS', avatar: './pikachu.png', link: 'https://pokemon-api-app1.herokuapp.com' },
+        { name: 'Pokemon Api', description: 'Getting Pokemon data from the PokeAPI using JS, HTML & CSS', avatar: './pikachu.png', link: 'https://pokemon-api-app-1.herokuapp.com' },
         { name: 'Punching Bag', description: 'A simple punch bag game using VueJS', avatar: './bag.png', link: 'https://punching-bag-game.herokuapp.com'}
         
       ]
