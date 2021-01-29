@@ -27,7 +27,7 @@
     </a>
     <br>
     <sui-button icon> Email:
-      <a href="mailto:aneleuchiha000@gmail.com? subject=subject text" target="_blank">
+      <a href="mailto: aneleuchiha000@gmail.com?">
       <sui-icon name="mail" />
       aneleuchiha000@gmail.com
       </a>
