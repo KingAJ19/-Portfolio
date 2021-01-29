@@ -66,7 +66,7 @@ h2 .txt::before{
   0% { content: 'Content Creator'}
   25% { content: 'Anime Fan'}
   50% { content: 'Rapper'}
-  75% { content: 'Creator'}
+  75% { content: 'Artist'}
   100% { content: 'Basketball Player'}
 }
 .underline{
